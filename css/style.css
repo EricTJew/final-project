@@ -1,0 +1,79 @@
+* {
+    margin:0
+}
+
+.header{
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.first {
+    border: solid black;
+    height: 500px;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(181, 122, 122);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+a:hover{
+background-color: rgb(6, 8, 4);
+  }
+
+footer {
+    height: 300px;
+    border: solid black;
+    background-color: grey;
+  }
+
+#footerfollow {
+    text-align: right;
+    margin: 10px 170px;
+  }
+
+  .social{
+    margin-right: 140px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: grey;
+    color: white;
+    float: right;
+  }
+
+  .fa-twitter {
+    background: grey;
+    color: white;
+    float: right;
+  }
