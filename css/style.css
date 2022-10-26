@@ -25,7 +25,18 @@ body {
     display: inline;
     padding: 0 30px;
     position: relative;
-    text-align: center;
+}
+
+.second {
+  height: 500px;
+  width: 500px;
+  display: inline;
+  position: relative;
+  padding: 0 30px;
+}
+
+#space{
+  height:50px;
 }
 
 nav{
@@ -62,7 +73,6 @@ a:hover{
   }
 
   .welcome {
-    border: solid black;
     height: 130px;
     width: 500px;
     margin-left: 35%;
@@ -74,24 +84,34 @@ a:hover{
   }
 
 footer {
-    height: 180px;
+    height: 150px;
     border: solid black;
     background-color: grey;
   }
 
 #footerfollow {
     text-align: right;
-    margin: 10px 170px;
+    margin: 10px 195px;
+    width: 100px;
+    float: right;
   }
 
   .social{
-    margin-right: 140px;
+    height: 60px;
+    width: 250px;
+    float: right;
+    margin-left: 300px;
+    margin-right: 130px;
   }
 
+  .email{
+    float: left;
+  }
+  
   .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 20px;
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
   }
@@ -107,6 +127,12 @@ footer {
   }
 
   .fa-twitter {
+    background: grey;
+    color: white;
+    float: right;
+  }
+
+  .fa-facebook {
     background: grey;
     color: white;
     float: right;
@@ -146,7 +172,7 @@ input[type=submit]:hover {
   position: absolute;
   bottom: 8px;
   left: 280px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .centered {
