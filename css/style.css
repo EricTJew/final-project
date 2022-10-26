@@ -45,7 +45,7 @@ ul {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -61,8 +61,20 @@ a:hover{
   color: rgb(129, 183, 75);
   }
 
+  .welcome {
+    border: solid black;
+    height: 130px;
+    width: 500px;
+    margin-left: 35%;
+  }
+
+  #welcometext {
+    text-align: center;
+    margin: 50px;
+  }
+
 footer {
-    height: 200px;
+    height: 180px;
     border: solid black;
     background-color: grey;
   }
@@ -156,6 +168,6 @@ input[type=submit]:hover {
 .bottommid {
   position: absolute;
   bottom: 8px;
-  right: 350px;
+  right: 410px;
   color: white;
 }
