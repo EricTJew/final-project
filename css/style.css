@@ -197,3 +197,46 @@ input[type=submit]:hover {
   right: 410px;
   color: white;
 }
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 4px solid #adb6a0;
+  background: #262725; 
+  font-family: 'Bangers';font-size: 19px;
+  color: #fff;
+  }
+
+  button:hover {
+    background: #3e4f24;
+    } 
+
+  #buttonn {
+    background:rgb(0, 0, 0);
+    font-family: 'Bangers';font-size: 19px;
+  }
+
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.chickenteri{
+  float: right;
+}
+
+.popular {
+  border: solid black;
+  width: 200px;
+  float: left;
+  margin: 50px 0 0 600px;
+}
